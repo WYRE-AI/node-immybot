@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/WYRE-AI/node-immybot/compare/v1.0.4...v1.0.5) (2026-08-25)
+
+
+### Bug Fixes
+
+* migrate to WYRE-AI org (npm scope, ghcr namespace, registry) ([#42](https://github.com/WYRE-AI/node-immybot/issues/42)) ([4cdf9e6](https://github.com/WYRE-AI/node-immybot/commit/4cdf9e64eced789672d90fabc3688217fc028060))
+
 ## [1.0.4](https://github.com/WYRE-AI/node-immybot/compare/v1.0.3...v1.0.4) (2026-08-25)
 
 
