@@ -53,7 +53,7 @@ export class ImmyBotAuth {
       method: 'POST',
       headers: {
         'Content-Type': 'application/x-www-form-urlencoded',
-        'User-Agent': this.config.userAgent || 'wyre-technology/node-immybot',
+        'User-Agent': this.config.userAgent || 'wyre-ai/node-immybot',
       },
       body: body.toString(),
       signal: AbortSignal.timeout(this.config.timeout || 30000),
