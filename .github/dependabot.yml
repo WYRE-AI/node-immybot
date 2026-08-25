@@ -30,6 +30,28 @@ updates:
     # Production MAJORS are intentionally NOT grouped → individual PRs, held for
     # human review (never auto-merged).
     ignore:
+      # ip-address, undici (GHSA alerts) are unreachable, not unaddressed --
+      # each is nested inside npm's own bundled dependency tree at
+      # node_modules/npm/node_modules/<pkg> (ip-address@10.2.0,
+      # undici@6.27.0). `npm` ships with bundleDependencies covering its
+      # entire tree, so these are vendored/pre-resolved at publish time.
+      # Verified via package-lock.json: the only occurrence of ip-address,
+      # and the GHSA-flagged occurrence of undici, are both under
+      # node_modules/npm/, no reachable top-level path. The override-pin
+      # verification method (add a package.json overrides pin, run npm
+      # install --package-lock-only, confirm the nested npm/ copy doesn't
+      # move) was done empirically on node-ninjaone: undici in
+      # WYRE-AI/node-ninjaone#74, ip-address on 2026-08-06 -- same
+      # npm-bundled mechanism applies identically here. No amount of
+      # top-level dependency management in THIS repo can reach either; only
+      # a new `npm` release bundling patched versions closes this. Without
+      # these ignores, Dependabot's Security job retries and fails
+      # (security_update_not_possible) for each, with no PR ever opening.
+      # The underlying GHSA alerts stay open/visible on the Security tab
+      # regardless. Revisit periodically: confirm whether a newer npm
+      # bundles fixed versions, then remove the relevant entry.
+      - dependency-name: "ip-address"
+      - dependency-name: "undici"
       # typescript 7.x breaks this fleet's toolchain: DTS emit (tsup/rollup-plugin-dts
       # TS5101 baseUrl-deprecated-as-error), and typescript-eslint (still <6.1.0 as of
       # 8.66.0, no TS7 support yet). Has broken main 3x on some repos because Dependabot
