@@ -1,4 +1,4 @@
-# @wyre-technology/node-immybot
+# @wyre-ai/node-immybot
 
 Node.js/TypeScript client library for the ImmyBot API with OAuth 2.0 authentication via Microsoft Entra ID.
 
@@ -16,13 +16,13 @@ Node.js/TypeScript client library for the ImmyBot API with OAuth 2.0 authenticat
 ## Installation
 
 ```bash
-npm install @wyre-technology/node-immybot
+npm install @wyre-ai/node-immybot
 ```
 
 ## Quick Start
 
 ```typescript
-import { ImmyBotClient } from '@wyre-technology/node-immybot';
+import { ImmyBotClient } from '@wyre-ai/node-immybot';
 
 const client = new ImmyBotClient({
   instanceSubdomain: 'acmemsp', // Your ImmyBot instance subdomain
@@ -225,7 +225,7 @@ import {
   NotFoundError, 
   RateLimitError,
   ValidationError 
-} from '@wyre-technology/node-immybot';
+} from '@wyre-ai/node-immybot';
 
 try {
   const computer = await client.computers.get(123);

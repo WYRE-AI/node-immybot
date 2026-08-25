@@ -51,7 +51,7 @@ export interface RateLimiterConfig {
  */
 export const DEFAULT_CONFIG = {
   timeout: 30000,
-  userAgent: 'wyre-technology/node-immybot',
+  userAgent: 'wyre-ai/node-immybot',
   rateLimiter: {
     maxRequests: 100, // Conservative default - exact limits undocumented
     windowMs: 60000,  // 1 minute window

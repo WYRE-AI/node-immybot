@@ -7,7 +7,7 @@
  *
  * @example
  * ```typescript
- * import { ImmyBotClient } from '@wyre-technology/node-immybot';
+ * import { ImmyBotClient } from '@wyre-ai/node-immybot';
  *
  * const client = new ImmyBotClient({
  *   instanceSubdomain: 'acmemsp',
