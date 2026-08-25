@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/WYRE-AI/node-immybot/compare/v1.0.3...v1.0.4) (2026-08-25)
+
+
+### Bug Fixes
+
+* **deps:** ignore ip-address/undici in dependabot -- nested unreachable copies in npm's bundled tree ([#41](https://github.com/WYRE-AI/node-immybot/issues/41)) ([57f4536](https://github.com/WYRE-AI/node-immybot/commit/57f4536cbce86a06ee6720f21b52fc8b87584adf)), closes [WYRE-AI/node-ninjaone#74](https://github.com/WYRE-AI/node-ninjaone/issues/74)
+
 ## [1.0.3](https://github.com/wyre-technology/node-immybot/compare/v1.0.2...v1.0.3) (2026-07-22)
 
 
