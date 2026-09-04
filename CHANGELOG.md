@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/WYRE-AI/node-immybot/compare/v1.0.6...v1.1.0) (2026-09-04)
+
+
+### Features
+
+* **release:** use extracted CHANGELOG notes instead of --generate-notes ([#49](https://github.com/WYRE-AI/node-immybot/issues/49)) ([4b2b5a3](https://github.com/WYRE-AI/node-immybot/commit/4b2b5a3bbb07f33592df0c8134d6e34f5286f912)), closes [node-datto-rmm#77](https://github.com/node-datto-rmm/issues/77)
+
+
 ## [1.0.6](https://github.com/WYRE-AI/node-immybot/compare/v1.0.5...v1.0.6) (2026-09-04)
 
 
