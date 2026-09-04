@@ -1,3 +1,12 @@
+## [1.0.6](https://github.com/WYRE-AI/node-immybot/compare/v1.0.5...v1.0.6) (2026-09-04)
+
+
+### Bug Fixes
+
+* **release:** restore persist-credentials:false, re-auth only for release ops ([#47](https://github.com/WYRE-AI/node-immybot/issues/47)) ([59f772d](https://github.com/WYRE-AI/node-immybot/commit/59f772d44f000f485039881afaf149538655a80a))
+* **security:** resolve dependabot alerts via npm audit fix ([#44](https://github.com/WYRE-AI/node-immybot/issues/44)) ([f80f848](https://github.com/WYRE-AI/node-immybot/commit/f80f848ccb7de8dbc6228c944b08dce770bfb535))
+
+
 ## [1.0.5](https://github.com/WYRE-AI/node-immybot/compare/v1.0.4...v1.0.5) (2026-08-25)
 
 
