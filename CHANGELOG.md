@@ -1,3 +1,11 @@
+## [1.1.1](https://github.com/WYRE-AI/node-immybot/compare/v1.1.0...v1.1.1) (2026-09-15)
+
+
+### Bug Fixes
+
+* **deps:** resolve js-yaml CVE-2026-84375 ([#53](https://github.com/WYRE-AI/node-immybot/issues/53)) ([6683312](https://github.com/WYRE-AI/node-immybot/commit/66833126b87570e99af0e8a5953c1f965e92e50f))
+
+
 # [1.1.0](https://github.com/WYRE-AI/node-immybot/compare/v1.0.6...v1.1.0) (2026-09-04)
 
 
