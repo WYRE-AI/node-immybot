@@ -1,3 +1,11 @@
+## [1.1.2](https://github.com/WYRE-AI/node-immybot/compare/v1.1.1...v1.1.2) (2026-10-05)
+
+
+### Bug Fixes
+
+* **release:** disable http.followRedirects on authenticated git commands ([#55](https://github.com/WYRE-AI/node-immybot/issues/55)) ([a209411](https://github.com/WYRE-AI/node-immybot/commit/a2094118d427ea2069924b5da239baa0a220841a))
+
+
 ## [1.1.1](https://github.com/WYRE-AI/node-immybot/compare/v1.1.0...v1.1.1) (2026-09-15)
 
 
