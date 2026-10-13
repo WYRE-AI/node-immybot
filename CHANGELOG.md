@@ -1,3 +1,11 @@
+## [1.1.3](https://github.com/WYRE-AI/node-immybot/compare/v1.1.2...v1.1.3) (2026-10-13)
+
+
+### Bug Fixes
+
+* **dependabot:** ungroup msw/vitest majors from auto-merged dev-dependencies ([#62](https://github.com/WYRE-AI/node-immybot/issues/62)) ([aa16910](https://github.com/WYRE-AI/node-immybot/commit/aa16910a80d087bc43079f74e630524c751e7ee8))
+
+
 ## [1.1.2](https://github.com/WYRE-AI/node-immybot/compare/v1.1.1...v1.1.2) (2026-10-05)
 
 
